@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body{
+        font-family:'Times New Roman', Times, serif;
+        background-color:rgb(222, 135, 135);
+        
+    }
+    table{
+        position:absolute;
+        left:50%;
+        top:50%;
+        transform: translate(-50%,-50%);
+        border-collapse: collapse;
+        width:800px;
+        height: 200px;
+        border: 2px solid black;
+        box-shadow: 2px 2px 12px rgba(0,0,0,0.2),-1px -1px 8px rgba(0,0,0,0.2);
+    }
+    tr{
+        transition: all.2s ease-in;
+        cursor:pointer;
+    }
+    th,tr{
+        padding:12px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+    #header{
+        background-color:black;
+        color:#fff;
+    }
+    
+    tr:hover{
+        background-color: #07a3d7 ;
+        box-shadow: 2px 2px 12px rgba(0,0,0,0.2),-1px -1px 8px rgba(0,0,0,0.2);
+    
+    }
+    tr:nth-child(odd){
+        background-color: rgb(192, 192, 192);
+    }
+    h1{
+        text-shadow:0px 2px 5px #07a3d7,0px 2px 4px darkblue;
+        padding-top: 70px;
+    }
+    h1.u{
+        padding-top: 3px;
+    }
+    
+         </style>
+</head>
+<body>
+    <center><h1><u>DATA COLLECTION</u></h1></center>
+    <table>
+        <tr id="header">
+            <th>Date</th>
+            <th>Time</th>
+            <th>Order ID</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Total</th>
+        </tr>
+        <tr>
+            <td>2022-09-29 </td>
+            <td>01:22</td>
+            <td>200398</td>
+            <td>Banarasi sari</td>
+            <td>2000/-</td>
+            <td>1</td>
+            <td>2000/-</td>
+        </tr>
+        <tr>
+            <td>2022-09-28</td>
+            <td> 05:57</td>
+            <td>200397</td>
+            <td>Nauvari saree</td>
+            <td>1500/-</td>
+            <td>  1</td>
+            <td>1500/-</td>
+        </tr>
+        <tr>
+            <td>2022-09-26 </td>
+            <td>05:57</td>
+            <td>200396</td>
+            <td>Bandhani saree</td>
+            <td>3000/-</td>
+            <td>  2</td>
+            <td>6000/-</td>
+        </tr>
+        <tr>
+            <td>2022-09-25 </td>
+            <td>23:06</td>
+            <td>200392</td>
+            <td>Tant saree</td>
+            <td>1000/-</td>
+            <td>  3</td>
+            <td>3000/-</td>
+        </tr>
+        <tr>
+            <td>2022-09-24 </td>
+            <td>05:57</td>
+            <td>200391</td>
+            <td>Chikankari</td>
+            <td>2000/-</td>
+            <td>  6</td>
+            <td>12000/-</td>
+        </tr>
+        <tr>
+            <td>2022-09-23 </td>
+            <td>05:57</td>
+            <td>200390</td>
+            <td>Chanderi</td>
+            <td>500/-</td>
+            <td>  1</td>
+            <td>500/-</td>
+        </tr>
+        <tr>
+            <td>2022-09-22 </td>
+            <td>05:57</td>
+            <td>200389</td>
+            <td>Bomkai saree</td>
+            <td>1500/-</td>
+            <td>  1</td>
+            <td>1500/-</td>
+        </tr>
+        <tr>
+            <td>2022-09-21 </td>
+            <td>05.57</td>
+            <td>200388</td>
+            <td>Kasavu saree</td>
+            <td>3000/-</td>
+            <td>  1</td>
+            <td>3000/-</td>
+        </tr>
+        <tr>
+            <td>2022-09-19 </td>
+            <td> 05:57</td>
+            <td>200386</td>
+            <td>Muga saree</td>
+            <td>6000/-</td>
+            <td>  1</td>
+            <td>6000/-</td>
+        </tr>
+        <tr>
+            <td>2022-09-21</td>
+            <td> 05:57</td>
+            <td>200388</td>
+            <td>Phulkari saree </td>
+            <td>600/-</td>
+            <td>  1</td>
+            <td>600/-</td>
+        </tr>
+        <tr>
+            <td>2022-09-19 </td>
+            <td>05:57</td>
+            <td>200387</td>
+            <td>Pochampally saree</td>
+            <td>5000/-</td>
+            <td>  1</td>
+            <td>5000/-</td>
+        </tr>
+ </table>
+ </body>
